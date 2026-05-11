@@ -23,7 +23,10 @@ public class InternshipTrackerDbContext : DbContext
         modelBuilder.Entity<User>(e =>
         {
             e.HasIndex(u => u.Email).IsUnique();
-            e.Property(u => u.CreatedAt).HasPrecision(0).HasDefaultValueSql("SYSUTCDATETIME()");
+            e.Property(u => u.CreatedAt)
+                .HasPrecision(0)
+                .HasDefaultValueSql("SYSUTCDATETIME()")
+                .ValueGeneratedOnAdd();
         });
 
         modelBuilder.Entity<Internship>(e =>
@@ -33,7 +36,10 @@ public class InternshipTrackerDbContext : DbContext
                 .HasForeignKey(i => i.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            e.Property(i => i.CreatedAt).HasPrecision(0).HasDefaultValueSql("SYSUTCDATETIME()");
+            e.Property(i => i.CreatedAt)
+                .HasPrecision(0)
+                .HasDefaultValueSql("SYSUTCDATETIME()")
+                .ValueGeneratedOnAdd();
             e.HasIndex(i => new { i.UserId, i.Status });
         });
 

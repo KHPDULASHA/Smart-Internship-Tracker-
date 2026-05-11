@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj": {}
+    "d:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj": {}
   },
   "projects": {
-    "D:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj": {
+    "d:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj",
+        "projectUniqueName": "d:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj",
         "projectName": "InternshipTrackerAPI",
-        "projectPath": "D:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj",
+        "projectPath": "d:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\InternshipTrackerAPI.csproj",
         "packagesPath": "C:\\Users\\Pramudi Dulasha\\.nuget\\packages\\",
-        "outputPath": "D:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\obj\\",
+        "outputPath": "d:\\Internship_Tracker_Project\\backend\\InternshipTrackerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
