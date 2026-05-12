@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InternshipTrackerAPI.Data;
 
-public class InternshipTrackerDbContext : DbContext
+public class ApplicationDbContext : DbContext
 {
-    public InternshipTrackerDbContext(DbContextOptions<InternshipTrackerDbContext> options)
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
     }

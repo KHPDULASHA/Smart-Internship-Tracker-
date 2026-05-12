@@ -153,3 +153,4 @@ d:\Internship_Tracker_Project\backend\InternshipTrackerAPI\obj\Debug\net9.0\refi
 d:\Internship_Tracker_Project\backend\InternshipTrackerAPI\obj\Debug\net9.0\InternshipTrackerAPI.pdb
 d:\Internship_Tracker_Project\backend\InternshipTrackerAPI\obj\Debug\net9.0\InternshipTrackerAPI.genruntimeconfig.cache
 d:\Internship_Tracker_Project\backend\InternshipTrackerAPI\obj\Debug\net9.0\ref\InternshipTrackerAPI.dll
+d:\Internship_Tracker_Project\backend\InternshipTrackerAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
