@@ -6,6 +6,7 @@ import DashboardPage from '../pages/DashboardPage'
 import HomePage from '../pages/HomePage'
 import InternshipDetailPage from '../pages/InternshipDetailPage'
 import InternshipEditPage from '../pages/InternshipEditPage'
+import InternshipNewPage from '../pages/InternshipNewPage'
 import InternshipsPage from '../pages/InternshipsPage'
 import LoginPage from '../pages/LoginPage'
 import NotFoundPage from '../pages/NotFoundPage'
@@ -25,6 +26,7 @@ export function AppRouter() {
       <Route element={<MainLayout />}>
         <Route path={ROUTES.dashboard} element={<DashboardPage />} />
         <Route path={ROUTES.internships} element={<InternshipsPage />} />
+        <Route path={ROUTES.internshipNew} element={<InternshipNewPage />} />
         <Route path="/internships/:internshipId/edit" element={<InternshipEditPage />} />
         <Route path="/internships/:internshipId" element={<InternshipDetailPage />} />
         <Route path={ROUTES.skills} element={<SkillsPage />} />

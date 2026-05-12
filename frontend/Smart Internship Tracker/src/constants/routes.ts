@@ -7,6 +7,7 @@ export const ROUTES = {
   register: '/register',
   dashboard: '/dashboard',
   internships: '/internships',
+  internshipNew: '/internships/new',
   internshipDetail: (internshipId: string | number) => `/internships/${internshipId}`,
   internshipEdit: (internshipId: string | number) => `/internships/${internshipId}/edit`,
   skills: '/skills',

@@ -34,6 +34,11 @@ export default function InternshipsPage() {
   return (
     <div>
       <PageHeading title="Internships" subtitle="Your applications and pipeline." />
+      {userId ? (
+        <p style={{ marginBottom: '1rem' }}>
+          <Link to={ROUTES.internshipNew}>+ Add internship</Link>
+        </p>
+      ) : null}
       {!userId ? (
         <p>
           Please <Link to={ROUTES.login}>log in</Link>.
